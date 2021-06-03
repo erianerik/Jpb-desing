@@ -1,7 +1,7 @@
 .bussiness-value {
     box-sizing: border-box;
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     margin: 2rem auto;
     padding: 2rem;
     display: flex;
@@ -11,6 +11,7 @@
 
 .bussiness-value__session-card {
     width: 30%;
+    min-width: 18rem;
     height: 100%;
     text-align: center;
     display: flex;
@@ -42,6 +43,7 @@
     }
     .bussiness-value__session-card {
         width: 100%;
+        min-width: auto;
         height: 16rem;
         margin: 1rem 0;
     }

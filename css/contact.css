@@ -2,6 +2,7 @@
     box-sizing: border-box;
     width: 80%;
     height: 90vh;
+    min-width: 54rem;
     margin: 2rem auto;
     display: flex;
     border-radius: 10px;
@@ -61,7 +62,7 @@
     box-sizing: border-box;
     width: 50%;
     height: 100%;
-    border-radius: 0px 10px 0px 10px;
+    border-radius: 0px 10px 10px 0px;
     background-color: #92ddaf;
     display: flex;
     flex-direction: column;
@@ -106,6 +107,7 @@
 @media only screen and (max-width: 900px) {
     .contact {
         width: 95%;
+        min-width: auto;
         height: auto;
         flex-direction: column;
     }

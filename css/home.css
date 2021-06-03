@@ -26,6 +26,7 @@
 
 .menu__list {
     width: 70%;
+    min-width: 38rem;
     height: 100%;
     display: flex;
     align-items: center;
@@ -83,6 +84,7 @@
     }
     .menu__list {
         width: 100%;
+        min-width: auto;
         height: 100%;
         flex-direction: column;
         background-color: #fff;

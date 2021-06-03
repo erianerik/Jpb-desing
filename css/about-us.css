@@ -10,6 +10,7 @@
 
 .about-us__content {
     width: 50%;
+    min-width: 35rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -29,6 +30,7 @@
 
 .about-us__illustration {
     width: 100%;
+    min-width: 20rem;
 }
 
 .button-pattern--our {
@@ -48,6 +50,7 @@
     }
     .about-us__content {
         width: 100%;
+        min-width: auto;
     }
     .description {
         width: 100%;
