@@ -1,0 +1,118 @@
+.home {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home__header {
+    width: 80%;
+    height: 23%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__logo {
+    width: 10%;
+}
+
+.header__menu {
+    width: 85%;
+    height: 100%;
+}
+
+.menu__list {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list__link {
+    font-size: 1.2rem;
+}
+
+.home__main-content {
+    width: 100%;
+    height: calc(100% - 30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #102202;
+}
+
+.main-content__subtitle {
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+
+.main-content__title {
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+.main-content__button {
+    margin-top: 1rem;
+}
+
+.menu-mobile, .close-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .home {
+        background-image: url(../img/background-home-mobile.png);
+    }
+    .home__header {
+        width: 85%;
+    }
+    .header__menu {
+        position: fixed;
+        right: -9999px;
+        top: 0;
+        background-color: #fff;
+        z-index: 1;
+        transition: all 1s ease-in-out;
+    }
+    .menu__list {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background-color: #fff;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        z-index: 1;
+        position: relative;
+    }
+    .home__main-content {
+        text-align: center;
+        height: calc(100% - 40%);
+    }
+    .main-content__title {
+        font-size: 3rem;
+    }
+    .main-content__subtitle {
+        font-size: 2rem;
+    }
+    .main-content__button{
+        font-size: 1rem;
+    }
+    .menu-mobile {
+        display: inherit;
+        width: 2.5rem;
+    }
+    .close-mobile {
+        display: inherit;
+        width: 1.3rem;
+        position: absolute;
+        left: 1.7rem;
+        top: 1.7rem;
+    }
+}
+  

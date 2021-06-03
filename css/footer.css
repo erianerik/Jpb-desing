@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    background-color: #92ddaf;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-copy {
+        font-size: 1rem;
+    }
+}
