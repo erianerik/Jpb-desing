@@ -14,6 +14,7 @@
     <!-- Css -->
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/keyFrame.css" />
     <link rel="stylesheet" href="./css/home.css" />
     <link rel="stylesheet" href="./css/about-us.css" />
     <link rel="stylesheet" href="./css/business-value.css" />
@@ -32,26 +33,26 @@
 </head>
 
 <body>
-    <section class="home">
+    <section class="home" id="home">
         <header class="home__header">
             <a href="" class="menu__logo"><img src="" alt="" />Logo</a>
             <img src="./img/icon/mobile/menu-mobile.svg" alt="" class="menu-mobile">
             <nav class="header__menu">
                 <ul class="menu__list">
                     <img src="./img/icon/mobile/close-mobile.svg" class="close-mobile" />
-                    <a href="" class="list__link active">
+                    <a href="#home" class="list__link active">
                         <li> Início</li>
                     </a>
-                    <a href="" class="list__link">
+                    <a href="#about-us" class="list__link">
                         <li> Sobre nós</li>
                     </a>
-                    <a href="" class="list__link">
+                    <a href="#value" class="list__link">
                         <li> Valores</li>
                     </a>
                     <a href="" class="list__link">
                         <li> Serviços</li>
                     </a>
-                    <a href="" class="list__link">
+                    <a href="#contact" class="list__link">
                         <li> Contato</li>
                     </a>
                 </ul>
@@ -90,7 +91,7 @@
 
     </section>
 
-    <section class="about-us">
+    <section class="about-us" id="about-us">
         <section class="about-us__content">
 
             <h2 class="title-pattern">Sobre nós</h2>
@@ -111,7 +112,7 @@
         </figure>
     </section>
 
-    <section class="bussiness-value">
+    <section class="bussiness-value" id="value">
         <section class="bussiness-value__session-card">
             <img src="./img/icon/value/vision.svg" class="session-card__illustration" />
             <h2 class="session-card__title">Visão</h2>
@@ -192,7 +193,7 @@
         </section>
     </section>
 
-    <form action="" class="contact">
+    <form action="" class="contact" id="contact">
         <fieldset class="contact__inputs">
             <h2 class="title-pattern title-pattern--contact">Entre em contato!</h2>
             <label for="" class="inputs__title">Digite seu nome: </label>
