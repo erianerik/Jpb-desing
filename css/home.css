@@ -144,12 +144,17 @@
     .main-content__illustration {
         display: none;
     }
+    .main-content__titles {
+        min-width: auto;
+    }
+    
     .main-content__title {
         font-size: 3rem;
         letter-spacing: normal;
     }
     .main-content__subtitle {
         font-size: 2rem;
+        max-width: inherit;
     }
     .main-content__button {
         font-size: 1rem;
@@ -169,6 +174,7 @@
     .home__fast-navigation {
         width: 95%;
         top: 90%;
+        min-width: auto;
     }
     .card-link__icon {
         width: 40%;
