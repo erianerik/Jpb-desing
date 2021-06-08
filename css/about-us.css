@@ -25,7 +25,6 @@
 
 .about-us__image {
     width: 50%;
-    height: 100%;
 }
 
 .about-us__illustration {
@@ -43,6 +42,7 @@
     .about-us {
         display: block;
         width: 100%;
+        height: auto;
         padding: .5rem;
     }
     .about-us__illustration {
@@ -50,6 +50,7 @@
     }
     .about-us__content {
         width: 100%;
+        height: auto;
         min-width: auto;
     }
     .description {

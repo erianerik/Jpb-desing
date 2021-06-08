@@ -1,16 +1,103 @@
 .footer {
     width: 100%;
-    height: 3rem;
-    line-height: 3rem;
-    font-weight: 600;
-    border-radius: 10px 10px 0 0;
+    height: auto;
+    line-height: 1.5rem;
     color: #fff;
     background-color: #92ddaf;
+}
+
+.footer-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: .8rem;
+}
+
+.footer__content-menu {
+    box-sizing: border-box;
+    width: 95%;
+    height: auto;
+    padding: 2rem 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.content-menu__brand {
+    width: 25%;
+}
+
+.content-menu__list-menu {
+    width: 15%;
+    line-height: 1.8rem;
+}
+
+.content-menu__social {
+    width: 30%;
+}
+
+.info__container-social--footer {
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: flex-start;
+}
+
+.social__icon--footer {
+    width: 2rem;
+    margin-right: 1.5rem;
+}
+
+.footer__copyright {
+    box-sizing: border-box;
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+    border-top: 1px solid #fff;
+}
+
+.footer-copy {
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 900px) {
+    .footer-title {
+        width: 100%;
+        margin: .2rem 0;
+    }
+    .footer__content-menu {
+        padding: 1rem 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-menu__brand {
+        width: 100%;
+    }
+    .content-menu__list-menu {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 0 1rem;
+    }
     .footer-copy {
         font-size: 1rem;
+    }
+    .content-menu__social {
+        width: 100%;
+    }
+    .info__container-social--footer {
+        justify-content: space-around;
+    }
+    .footer__copyright {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+    .footer-copy:last-child {
+        order: -1;
     }
 }
