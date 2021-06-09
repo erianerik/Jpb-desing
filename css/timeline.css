@@ -7,15 +7,6 @@
     display: none;
 }
 
-.main-content {
-    width: 100%;
-    height: auto;
-    margin: 1rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .main-content__timeline {
     width: 900px;
     height: auto;
