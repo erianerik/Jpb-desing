@@ -13,7 +13,6 @@ $(".close-mobile").click(function() {
 });
 
 $('nav a').click(function(e) {
-    e.preventDefault();
     let id = $(this).attr('href');
     let targetOffset = $(id).offset().top - 75; 
 

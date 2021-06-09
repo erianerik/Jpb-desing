@@ -67,6 +67,17 @@
         z-index: 1;
         transition: all 1s ease-in-out;
     }
+    .menu-mobile {
+        display: inherit;
+        width: 2.5rem;
+    }
+    .close-mobile {
+        display: inherit;
+        width: 1.3rem;
+        position: absolute;
+        left: 1.7rem;
+        top: 1.7rem;
+    }
     .home__header--fixed {
         box-sizing: border-box;
         width: 100%;

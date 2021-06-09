@@ -65,6 +65,13 @@
     border-right: 1px solid #e0e0e0;
 }
 
+.card-link__redirect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .fast-navigarion__card-link:last-child {
     border: none;
 }
@@ -96,17 +103,6 @@
     .main-content__button {
         font-size: 1rem;
         margin: 0 auto;
-    }
-    .menu-mobile {
-        display: inherit;
-        width: 2.5rem;
-    }
-    .close-mobile {
-        display: inherit;
-        width: 1.3rem;
-        position: absolute;
-        left: 1.7rem;
-        top: 1.7rem;
     }
     .home__fast-navigation {
         width: 95%;

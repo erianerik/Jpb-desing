@@ -17,7 +17,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
 }
 
 .session-card__illustration {
@@ -27,6 +26,7 @@
 .session-card__title {
     font-size: 1.5rem;
     font-weight: bold;
+    margin: 1rem auto;
 }
 
 .session-card__subtitle {
@@ -46,5 +46,8 @@
         min-width: auto;
         height: 16rem;
         margin: 1rem 0;
+    }
+    .session-card__title {
+        margin: 1.5rem auto;
     }
 }

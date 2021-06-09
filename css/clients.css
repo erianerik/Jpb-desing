@@ -1,0 +1,45 @@
+.clients {
+    box-sizing: border-box;
+    width: 80%;
+    height: auto;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
+.clients__container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.clients-brand {
+    width: 15rem;
+    transition: all .5s ease-in-out;
+}
+
+.clients-brand:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.button-pattern--about-us {
+    border-radius: 10px;
+    margin: 2rem auto;
+}
+
+@media only screen and (max-width: 920px) {
+    .title-pattern--clients::before {
+        display: none;
+    }
+    .clients-brand {
+        width: 10rem;
+    }
+    .clients {
+        padding: 0;
+        margin: 2rem auto;
+    }
+}
