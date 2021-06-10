@@ -1,6 +1,8 @@
 .main-content--service {
     flex-direction: column;
     height: calc(100vh - 110px);
+    -webkit-animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .main-content__title {
@@ -8,6 +10,8 @@
     font-size: 3rem;
     font-weight: bold;
     color: #102202;
+    -webkit-animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .main-content__container {
@@ -65,6 +69,6 @@
     .main-content__title {
         font-size: 2rem;
         text-align: center;
+        animation: none;
     }
 }
-
