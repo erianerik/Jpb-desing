@@ -1,9 +1,9 @@
 .our-service {
     box-sizing: border-box;
-     width: 100%;
-     height: auto;
-     padding: 1rem;
-     background-color: #e9f7f0;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: #e9f7f0;
 }
 
 .our-service__container {
@@ -15,7 +15,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
-    gap: 1rem;
+    gap: 1.3rem;
 }
 
 .container__card {
@@ -30,6 +30,15 @@
     justify-content: space-around;
     text-align: center;
     background-color: #fff;
+    transition: all .5s ease;
+}
+
+.container__card:hover {
+    transform: scale(1.1);
+}
+
+.container__card:hover > .card__illustration{
+    transform: rotate(12deg);
 }
 
 .card__title {
@@ -40,10 +49,15 @@
 
 .card__illustration {
     width: 5rem;
+    transition: all .5s ease-in-out;
 }
 
 .card__description {
     line-height: 1.5rem;
+}
+
+.button-pattern--service {
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 900px) {

@@ -363,6 +363,15 @@ template {
   display: none;
 }
 
+.main-content {
+  width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .active {
   border-bottom: 2px solid #aee1c0;
 }

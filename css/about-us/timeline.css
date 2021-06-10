@@ -1,25 +1,20 @@
 .title-pattern--timeline {
     text-align: center;
     margin: 5rem auto;
+    -webkit-animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .title-pattern--timeline::before {
     display: none;
 }
 
-.main-content {
-    width: 100%;
-    height: auto;
-    margin: 1rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .main-content__timeline {
     width: 900px;
     height: auto;
     position: relative;
+    -webkit-animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .main-content__timeline::before {
@@ -141,5 +136,6 @@
         line-height: 1.8rem;
         text-align: center;
         margin: 1rem auto;
+        animation: none;
     }
 }
