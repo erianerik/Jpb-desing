@@ -63,6 +63,9 @@
         text-align: center;
         margin: 0 auto;
     }
+    .info__subtitle--second {
+        line-height: 2rem;
+    }
     .info__description {
         text-align: justify;
     }

@@ -1,6 +1,6 @@
 .main-content--service {
     flex-direction: column;
-    height: calc(100vh - 110px);
+    min-height: calc(100vh - 110px);
     -webkit-animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -58,17 +58,13 @@
     font-weight: 600;
 }
 
-@media only screen and (max-width: 1120px) {
-    .main-content--service {
-        height: auto;
-        text-align: center;
-    }
-}
-
 @media only screen and (max-width: 900px) {
     .main-content__title {
         font-size: 2rem;
         text-align: center;
         animation: none;
+    }
+    .main-content--service{
+        min-height: auto;
     }
 }
