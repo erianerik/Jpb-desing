@@ -1,27 +1,7 @@
 let scrollPage = 0;
 let pageContents = [$(".about-us"), $(".our-service"), $(".contact")];
 let animationSlideTop = "slide-top";
-let widthView = $(document).width();
-let offset = $(window).height() * 3 / 4;
-
-$(".menu-mobile").click(function() {
-    $(".header__menu").css("right", "0px");
-});
-
-$(".close-mobile").click(function() {
-   $(".header__menu").css("right", "-9999px"); 
-});
-
-if(widthView > 900) {
-    $('.service-item').hover(
-        function () {
-            $('.sub-list', this).stop().slideDown();
-        },
-        function () {
-            $('.sub-list', this).stop().slideUp();
-        }
-    );
-}
+let offset = $(window).height() * 3 / 3;
 
 $('nav a').click(function(e) {
     let id = $(this).attr('href');
@@ -40,7 +20,7 @@ $('nav a').click(function(e) {
 });
 
 function menuFixed(scroll) {
-  
+
     if(scroll > 780) {
         $(".home__header").addClass("home__header--fixed");
     } else {
