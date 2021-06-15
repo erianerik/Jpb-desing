@@ -88,8 +88,9 @@
 
 @media only screen and (max-width: 900px) {
     .home__main-content {
-        text-align: center;
         height: calc(100% - 40%);
+        padding: .8rem;
+        text-align: center;
     }
     .main-content__illustration {
         display: none;
@@ -98,12 +99,14 @@
         min-width: auto;
     }
     .main-content__title {
-        font-size: 3rem;
+        font-size: 4rem;
         letter-spacing: normal;
     }
     .main-content__subtitle {
-        font-size: 2rem;
         max-width: inherit;
+        margin: 2rem auto;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
     }
     .main-content__button {
         font-size: 1rem;
@@ -114,8 +117,12 @@
         top: 90%;
         min-width: auto;
     }
+    .card-link__redirect {
+        font-size: .9rem;
+        font-weight: 600;
+    }
     .card-link__icon {
-        width: 40%;
+        width: 50%;
         margin-bottom: .8rem;
     }
 }
