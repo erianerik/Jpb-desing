@@ -118,6 +118,9 @@
     .timeline__card {
         width: 95%;
     }
+    .card__data {
+        font-size: 1rem;
+    }
     .timeline__card::after {
         display: none;
     }
