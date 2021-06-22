@@ -428,4 +428,9 @@ template {
   body {
     font-size: 12px;
   }
+  .title-pattern {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2rem;
+  }
 }
