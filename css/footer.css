@@ -21,7 +21,7 @@
 .content-menu__maps {
     width: 100%;
     height: 100%;
-} 
+}
 
 .footer__content-menu {
     box-sizing: border-box;
@@ -80,6 +80,12 @@
         width: 100%;
         margin: .2rem 0;
     }
+    .brand__description {
+        font-size: 1rem;
+    }
+    .list-menu__link--footer {
+        font-size: 1rem;
+    }
     .footer__content-menu {
         padding: 1rem 0;
         flex-direction: column;
@@ -115,7 +121,13 @@
         flex-direction: column;
         padding: 1rem 0;
     }
-    .footer-copy:last-child {
-        order: -1;
+    .content-menu__list-menu--footer {
+        justify-content: space-between;
+    }
+    .list-menu__link--footer:nth-child(6), .list-menu__link--footer:nth-child(8) {
+        order: 8;
+    }
+    .social-description {
+        font-size: 1rem;
     }
 }
