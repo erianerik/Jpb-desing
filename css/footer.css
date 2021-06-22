@@ -124,8 +124,11 @@
     .content-menu__list-menu--footer {
         justify-content: space-between;
     }
-    .list-menu__link--footer:nth-child(6), .list-menu__link--footer:nth-child(8) {
-        order: 8;
+    .list-menu__link--footer:nth-child(3) {
+        order: 7;
+    }
+    .list-menu__link--footer:nth-child(7) {
+        order: 1;
     }
     .social-description {
         font-size: 1rem;
