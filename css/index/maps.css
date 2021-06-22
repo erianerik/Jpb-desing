@@ -1,0 +1,30 @@
+.maps {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.maps__container {
+    width: 80%;
+    height: 30rem;
+    margin: 0 auto;
+}
+
+.maps__description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .maps {
+        padding: 1rem;
+    }
+    .maps__container {
+        width: 100%;
+        height: 20rem;
+    }
+    .maps__description {
+        text-align: center;
+    }
+}
