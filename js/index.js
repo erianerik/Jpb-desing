@@ -1,5 +1,5 @@
 let scrollPage = 0;
-let pageContents = [$(".about-us"), $(".our-service"), $(".contact"), $(".gallery")];
+let pageContents = [$(".about-us"), $(".our-service"), $(".gallery"), $(".contact"), $(".maps") ];
 let slideItems = $(".card__content");
 let sliderIndex  = 0;
 let animationSlideTop = "slide-top";
@@ -18,7 +18,7 @@ $('nav a').click(function(e) {
     } else {
         $('html, body').animate({
             scrollTop: targetOffset
-        }, 500);
+        }, 300);
     }
 });
 
@@ -31,7 +31,7 @@ function menuFixed(scroll) {
     
 }
 
-function animationScroll(target, animacaoClass) {
+function animationScroll(target) {
     let documentTop = $(document).scrollTop();
 
     $(target).each(function(index, container) {
