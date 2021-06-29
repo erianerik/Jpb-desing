@@ -70,6 +70,10 @@
     border-top: 1px solid #fff;
 }
 
+.footer__copyright > a{
+    padding-right: 30px;
+}
+
 .footer-copy {
     font-size: 1.1rem;
     font-weight: 600;

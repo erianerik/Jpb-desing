@@ -1,5 +1,9 @@
 let widthView = $(document).width();
 
+$( document ).ready(function () {
+    $('.whatsapp-tag').load("tag/whatsapp.html");
+});
+
 $(".menu-mobile").click(function() {
     $(".header__menu").css("right", "0px");
 });
