@@ -232,7 +232,7 @@ button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focus
    */
 
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
+  padding: 0;
 }
 
 /**
@@ -420,8 +420,31 @@ template {
   background-color: #4f9f00;
 }
 
+.error-description {
+  font-size: 1rem;
+  color: red;
+  font-weight: 600;
+  margin: .5rem 0;
+}
+
 .animation-top {
   animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.message-status {
+  box-sizing: border-box;
+  width: fit-content;
+  height: 3rem;
+  padding: 0 1rem;
+  line-height: 3rem;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 15px;
+  position: absolute;
+  top: 2rem;
+  right: 10px;
+  animation: message-status-animation 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @media only screen and (max-width: 900px) {

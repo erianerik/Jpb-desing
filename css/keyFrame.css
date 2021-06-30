@@ -104,6 +104,21 @@
     }
 }
 
+@keyframes message-status-animation {
+    0% {
+        display: initial;
+        opacity: 1;
+    }
+    75% {
+        display: initial;
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     @keyframes slide-fwd-top {
         0% {

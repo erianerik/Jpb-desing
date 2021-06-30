@@ -6,6 +6,8 @@ let animationSlideTop = "slide-top";
 let slideActiveClass = "slider-active";
 let offset = $(window).height() * 3 / 3;
 
+$(".phone-number").mask("(00) 0000-00000");
+
 $('nav a').click(function(e) {
     let id = $(this).attr('href');
     let targetOffset = $(id).offset().top - 75; 

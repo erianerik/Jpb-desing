@@ -1,7 +1,7 @@
 .contact {
     box-sizing: border-box;
     width: 80%;
-    height: 90vh;
+    height: auto;
     min-width: 54rem;
     margin: 2rem auto;
     display: flex;
@@ -14,10 +14,22 @@
     box-sizing: border-box;
     width: 50%;
     height: 100%;
-    padding: 2rem;
+    padding: 1.3rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.inputs__content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputs__title {
+    margin: .6rem 0 ;
 }
 
 .title-pattern--contact {
@@ -54,6 +66,7 @@
 .button-pattern--contact {
     width: 15rem;
     margin: 0 auto;
+    margin-top: .8rem;
     border-radius: 15px;
     background-color: #92ddaf;
 }
@@ -61,7 +74,7 @@
 .contact__midia {
     box-sizing: border-box;
     width: 50%;
-    height: 100%;
+    height: auto;
     border-radius: 0px 10px 10px 0px;
     background-color: #92ddaf;
     display: flex;
@@ -102,6 +115,10 @@
 
 .social__icon {
     width: 2.3rem;
+}
+
+.error-input {
+    border: 2px solid red;
 }
 
 @media only screen and (max-width: 900px) {
