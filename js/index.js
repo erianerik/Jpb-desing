@@ -10,6 +10,8 @@ $( document ).ready(function () {
     $('.whatsapp-tag').load("tag/whatsapp.html");
 });
 
+$(".phone-number").mask("(00) 0000-00000");
+
 $('nav a').click(function(e) {
     let id = $(this).attr('href');
     let targetOffset = $(id).offset().top - 75; 

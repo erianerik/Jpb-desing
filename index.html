@@ -32,6 +32,8 @@
 
     <!-- Jquery -->
     <script src="./js/jquery-3.6.0.slim.min.js"></script>
+    <!-- Jquery Mask -->
+    <script src="./js/jquery-mask.js"></script>
 
 </head>
 
@@ -307,23 +309,35 @@
         </section>
     </section>
 
-    <form action="" class="contact">
+    <form action="php/sendemail.php" class="contact">
         <fieldset class="contact__inputs">
             <h2 class="title-pattern title-pattern--contact">Entre em contato!</h2>
-            <label for="" class="inputs__title">Digite seu nome: </label>
-            <input type="text" name="name" id="" class="input-pattern" placeholder="Ex.: Paulo André">
 
-            <label for="" class="inputs__title">Digite seu email: </label>
-            <input type="email" name="name" id="" class="input-pattern" placeholder="Ex.: pauloAndre@email.com">
+            <fieldset class="inputs__content">
+                <label for="" class="inputs__title">Digite seu nome: </label>
+                <input type="text" name="name" id="name" class="input-pattern normalValidation"
+                    placeholder="Ex.: Paulo André">
+            </fieldset>
 
-            <label for="" class="inputs__title">Digite seu telefone: </label>
-            <input type="tel" name="name" id="" class="input-pattern" placeholder="Ex.: (99) 9999-9999">
+            <fieldset class="inputs__content">
+                <label for="" class="inputs__title">Digite seu email: </label>
+                <input type="email" name="email" id="email" class="input-pattern"
+                    placeholder="Ex.: pauloAndre@email.com">
+            </fieldset>
 
-            <label for="" class="inputs__title">Digite sua mensagem: </label>
-            <textarea name="" id="" cols="30" rows="10" class="text-area"
-                placeholder="Digite a sua mensagem"></textarea>
+            <fieldset class="inputs__content">
+                <label for="" class="inputs__title">Digite seu telefone: </label>
+                <input type="tel" name="phone" id="phone" class="input-pattern normalValidation phone-number"
+                    placeholder="Ex.: (99) 9999-9999">
+            </fieldset>
 
-            <input type="submit" value="Enviar" class="button-pattern button-pattern--contact">
+            <fieldset class="inputs__content">
+                <label for="" class="inputs__title">Digite sua mensagem: </label>
+                <textarea name="message" id="message" cols="30" rows="10" class="text-area"
+                    placeholder="Digite a sua mensagem"></textarea>
+            </fieldset>
+
+            <input type="button" value="Enviar" class="button-pattern button-pattern--contact">
         </fieldset>
 
         <fieldset class="contact__midia">
@@ -339,8 +353,10 @@
                 </section>
 
             </section>
-
         </fieldset>
+        <div class="message-status">
+            <p class="message-status__message">${mensagem}</p>
+        </div>
     </form>
 
     <footer class="footer">
@@ -353,9 +369,7 @@
                     <h2 class="footer-title footer-title--maps">Endereço</h2>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14643.321153168095!2d-46.396999!3d-23.430497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce628173f02871%3A0x177c3ccf1d4aee9c!2sEstrada%20Mun.%2C%20500%20-%20%C3%81gua%20Chata%2C%20Guarulhos%20-%20SP%2C%2007251-300!5e0!3m2!1spt-BR!2sbr!4v1623853688260!5m2!1spt-BR!2sbr"
-                        width="100%" height="100%"
-                         allowfullscreen=""
-                        loading="lazy"></iframe>
+                        width="100%" height="100%" allowfullscreen="" loading="lazy"></iframe>
                 </section>
             </section>
 
@@ -437,6 +451,7 @@
     <div class="whatsapp-tag"></div>
 
     <script src="./js/index.js"></script>
+    <script src="./js/validation-contact.js"></script>
     <script src="./js/menu-mobile.js"></script>
 
 </body>
