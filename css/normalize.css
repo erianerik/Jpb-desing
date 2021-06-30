@@ -456,4 +456,11 @@ template {
     text-align: center;
     line-height: 2rem;
   }
+
+  .message-status {
+    top: -1rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1rem;
+  }
 }
