@@ -79,6 +79,16 @@
     font-weight: 600;
 }
 
+.email-written-icon{
+    width: 1.2rem;
+}
+.phone-written-icon{
+    width: 1.2rem;
+}
+.links-written{
+    width: 100%;
+}
+
 @media only screen and (max-width: 900px) {
     .footer-title {
         width: 100%;
