@@ -6,10 +6,8 @@
     background-color: #92ddaf;
 }
 
-.footer-title {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: .8rem;
+.footer__logo {
+    width: 50%;
 }
 
 .footer-title--maps {
@@ -30,13 +28,12 @@
     padding: 2rem 0;
     margin: 0 auto;
     display: flex;
-    align-items: baseline;
     justify-content: space-around;
 }
 
 .content-menu__brand {
     width: 25%;
-    height: auto;
+    height: 100%;
 }
 
 .content-menu__list-menu {
