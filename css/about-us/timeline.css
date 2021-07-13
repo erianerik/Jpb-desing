@@ -1,1 +1,144 @@
-.title-pattern--timeline { text-align: center; margin: 5rem auto; -webkit-animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; } .title-pattern--timeline::before { display: none; } .main-content__timeline { width: 900px; height: auto; position: relative; -webkit-animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; } .main-content__timeline::before { content: ''; width: 1px; height: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%); background-color: #102202; } .timeline__card { width: 25rem; height: auto; position: relative; } .timeline__card::after { content: ''; width: 25px; height: 23px; border-radius: 50%; background-color: #92ddaf; position: absolute; top: 0; right: 0; } .timeline__card:nth-child(odd)::after { transform: translate(50%, 50%); right: -50px; } .timeline__card:nth-child(even)::after { transform: translate(50%, 50%); left: -75px; } .timeline__card:nth-child(odd) { float: left; clear: both; } .timeline__card:nth-child(odd) .card__body { border-radius: 10px 0 10px 10px; text-align: right; } .timeline__card:nth-child(even) .card__body { border-radius: 0 10px 10px 10px; } .timeline__card:nth-child(even) { float: right; clear: both; } .card__data { margin: .8rem 5px; } .timeline__card:nth-child(odd) .card__data { text-align: right; } .card__body { box-sizing: border-box; width: 100%; height: 95%; padding: 1rem; color: #fff; background-color: #92ddaf; } .body__title { font-size: 1.5rem; font-weight: 600; margin-bottom: 10px; } .body__description { font-size: 1rem; line-height: 1.6rem; } @media only screen and (max-width: 920px) { .main-content__timeline { width: 100%; height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 1rem 0; } .main-content__timeline::before { display: none; } .timeline__card { width: 95%; } .card__data { font-size: 1rem; } .timeline__card::after { display: none; } .timeline__card:nth-child(odd), .timeline__card:nth-child(even) { float: none; } .timeline__card:nth-child(odd) .card__body, .timeline__card:nth-child(even) .card__body { border-radius: 10px; text-align: left; } .timeline__card:nth-child(odd) .card__data { text-align: left; } .title-pattern--timeline, .title-pattern--clients { font-size: 1.5rem; line-height: 1.8rem; text-align: center; margin: 1rem auto; animation: none; } }
+.title-pattern--timeline {
+    text-align: center;
+    margin: 5rem auto;
+    -webkit-animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.title-pattern--timeline::before {
+    display: none;
+}
+
+.main-content__timeline {
+    width: 900px;
+    height: auto;
+    position: relative;
+    -webkit-animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.main-content__timeline::before {
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #102202;
+}
+
+.timeline__card {
+    width: 25rem;
+    height: auto;
+    position: relative;
+}
+
+.timeline__card::after {
+    content: '';
+    width: 25px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #92ddaf;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.timeline__card:nth-child(odd)::after {
+    transform: translate(50%, 50%);
+    right: -50px;
+}
+
+.timeline__card:nth-child(even)::after {
+    transform: translate(50%, 50%);
+    left: -75px;
+}
+
+.timeline__card:nth-child(odd) {
+    float: left;
+    clear: both;
+}
+
+.timeline__card:nth-child(odd) .card__body {
+    border-radius: 10px 0 10px 10px;
+    text-align: right;
+}
+
+.timeline__card:nth-child(even) .card__body {
+    border-radius: 0 10px 10px 10px;
+}
+
+.timeline__card:nth-child(even) {
+    float: right;
+    clear: both;
+}
+
+.card__data {
+    margin: .8rem 5px;
+}
+
+.timeline__card:nth-child(odd) .card__data {
+    text-align: right;
+}
+
+.card__body {
+    box-sizing: border-box;
+    width: 100%;
+    height: 95%;
+    padding: 1rem;
+    color: #fff;
+    background-color: #92ddaf;
+}
+
+.body__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.body__description {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+@media only screen and (max-width: 920px) {
+    .main-content__timeline {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem 0;
+    }
+    .main-content__timeline::before {
+        display: none;
+    }
+    .timeline__card {
+        width: 95%;
+    }
+    .card__data {
+        font-size: 1rem;
+    }
+    .timeline__card::after {
+        display: none;
+    }
+    .timeline__card:nth-child(odd), .timeline__card:nth-child(even) {
+        float: none;
+    }
+    .timeline__card:nth-child(odd) .card__body, .timeline__card:nth-child(even) .card__body {
+        border-radius: 10px;
+        text-align: left;
+    }
+    .timeline__card:nth-child(odd) .card__data {
+        text-align: left;
+    }
+    .title-pattern--timeline, .title-pattern--clients {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        text-align: center;
+        margin: 1rem auto;
+        animation: none;
+    }
+}
