@@ -125,7 +125,7 @@
         width: 95%;
         min-width: auto;
         height: auto;
-        flex-direction: column;
+        flex-direction: column !important;
     }
     .title-pattern--contact {
         margin: 0 auto;
@@ -151,7 +151,7 @@
         font-size: 1rem;
     }
     .contact__midia {
-        display: none;
+        display: none !important;
     }
     .info__container-social {
         width: 80%;
