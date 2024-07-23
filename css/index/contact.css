@@ -4,7 +4,7 @@
     height: auto;
     min-width: 54rem;
     margin: 2rem auto;
-    display: flex;
+    display: flex !important;
     border-radius: 10px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     background-color: #fff;
@@ -15,7 +15,7 @@
     width: 50%;
     height: 100%;
     padding: 1.3rem 2rem;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -23,7 +23,7 @@
 .inputs__content {
     width: 100%;
     height: auto;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
 }
 
@@ -76,7 +76,7 @@
     height: auto;
     border-radius: 0px 10px 10px 0px;
     background-color: #92ddaf;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -107,7 +107,7 @@
     height: auto;
     margin: 0 auto;
     padding: 1rem;
-    display: flex;
+    display: flex !important;
     justify-content: space-around;
     align-items: center;
 }

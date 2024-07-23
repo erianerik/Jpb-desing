@@ -4,7 +4,7 @@
     height: 45vh;
     margin: 2rem auto;
     padding: 2rem;
-    display: flex;
+    display: flex !important;
     justify-content: space-around;
     align-items: baseline;
 }
@@ -14,7 +14,7 @@
     min-width: 18rem;
     height: 100%;
     text-align: center;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
 }

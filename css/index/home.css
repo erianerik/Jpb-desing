@@ -3,7 +3,7 @@
     width: 100%;
     height: calc(100% - 30%);
     padding: 2rem;
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
     color: #102202;
@@ -42,7 +42,7 @@
     width: 70%;
     min-width: 53rem;
     height: 20%;
-    display: flex;
+    display: flex !important;
     border-radius: 10px;
     background-color: #fff;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -58,7 +58,7 @@
 .fast-navigarion__card-link {
     width: 33%;
     height: 100%;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -66,7 +66,7 @@
 }
 
 .card-link__redirect {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     justify-content: center;
     align-items: center;

@@ -9,7 +9,7 @@
 .clients__container {
     width: 100%;
     height: auto;
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
