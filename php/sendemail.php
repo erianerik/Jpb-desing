@@ -11,7 +11,7 @@ $message =  $_POST['message'];
 
 //INFORMAÇÕES DA HOSPEDAGEM PARA ENVIO 
 $emailSender = "$email" ;
-$emailReceiver = "paulo.barreto@jpbseguranca.com";
+$emailReceiver = "comercial@lpseg.com.br";
 $Email_reply = "{$email}";
 
 //CRIANDO EMAU PARA ENVIO 

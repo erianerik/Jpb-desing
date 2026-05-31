@@ -39,7 +39,7 @@
     width: 25px;
     height: 23px;
     border-radius: 50%;
-    background-color: #92ddaf;
+    background-color: #6bb085;
     position: absolute;
     top: 0;
     right: 0;
@@ -88,7 +88,7 @@
     height: 95%;
     padding: 1rem;
     color: #fff;
-    background-color: #92ddaf;
+    background-color: #6bb085;
 }
 
 .body__title {
