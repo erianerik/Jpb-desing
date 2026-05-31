@@ -2,7 +2,7 @@
     box-sizing: border-box;
     width: 100%;
     height: calc(100% - 30%);
-    padding: 2rem;
+    padding-left: 5rem;
     display: flex !important;
     justify-content: center;
     align-items: center;
@@ -12,11 +12,11 @@
 }
 
 .main-content__titles {
-    min-width: 27rem;
+    min-width: 31rem;
 }
 
 .main-content__title {
-    font-size: 5rem;
+    font-size: 4rem;
     letter-spacing: 2rem;
     font-weight: bold;
     margin: 1rem;
@@ -26,7 +26,7 @@
     font-size: 1.5rem;
     font-weight: lighter;
     line-height: 2rem;
-    max-width: 32rem;
+    max-width: 35rem;
 }
 
 .main-content__button {
@@ -35,7 +35,8 @@
 }
 
 .main-content__illustration {
-    width: 100%;
+    width: 80%;
+    z-index: -1;
 }
 
 .home__fast-navigation {
